@@ -21,6 +21,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -79,6 +80,8 @@
       <updated>1695562383146</updated>
       <workItem from="1695562388942" duration="1236000" />
       <workItem from="1695733040990" duration="4511000" />
+      <workItem from="1696149099442" duration="5741000" />
+      <workItem from="1696155912410" duration="994000" />
     </task>
     <servers />
   </component>
