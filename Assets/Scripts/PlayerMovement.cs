@@ -45,13 +45,7 @@ public class PlayerMovement : MonoBehaviour
         }
         
     }
-
-
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        
-    }
-
+    
     private void Update()
     {
         horizontalInput = Input.GetAxis("Horizontal");
@@ -104,6 +98,11 @@ public class PlayerMovement : MonoBehaviour
         RaycastHit2D raycastHit = Physics2D.BoxCast(boxCollider.bounds.center, boxCollider.bounds.size, 0,
             new Vector2(transform.localScale.x, 0), 0.1f, wallLayer);
         return raycastHit.collider != null;
+    }
+
+    public bool CanAttack()
+    {
+        return horizontalInput == 0 && GetIsGrounded() && !GetOnWall();
     }
     
     
